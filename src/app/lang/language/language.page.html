@@ -1,0 +1,30 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Choose language</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://www.faba-limited.co.tz/faba-logo.webp" />
+    <ion-card-header>
+      <ion-card-title>Mazao Soko</ion-card-title>
+      <ion-card-subtitle>Language selection</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+  </ion-card>
+
+  <div id="sw" style="padding-top: 0%;">
+  <ion-button [routerLink]="['/login']" expand="block">KISWAHILI</ion-button>
+  </div>
+
+  <div id="en" style="padding-top: 10%;">
+  <ion-button [routerLink]="['/login']" expand="block">ENGLISH</ion-button>
+  </div>
+
+
+
+</ion-content>

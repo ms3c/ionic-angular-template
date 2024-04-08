@@ -1,0 +1,77 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Individual Registration</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+<ion-list [inset]="true">
+    <ion-item>
+      <ion-input label="First Name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Middle Name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Sir Name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Phone Number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Country" placeholder="Tanzania">
+        <ion-select-option value="apple">Tanzania</ion-select-option>
+        <ion-select-option value="banana">Kenya</ion-select-option>
+        <ion-select-option value="orange">Uganda</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Region" placeholder="Dar es Salaam">
+        <ion-select-option value="apple">Dar es Salaam</ion-select-option>
+        <ion-select-option value="banana">Dodoma</ion-select-option>
+        <ion-select-option value="orange">Tanga</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Ward" placeholder="Kinondoni">
+        <ion-select-option value="apple">Kinondoni</ion-select-option>
+        <ion-select-option value="banana">Ilala</ion-select-option>
+        <ion-select-option value="orange">Temeke</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-select label="District" placeholder="Magomeni">
+        <ion-select-option value="apple">Magomeni</ion-select-option>
+        <ion-select-option value="banana">Mwanyamala</ion-select-option>
+        <ion-select-option value="orange">Kawe</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Street"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="House Number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-select label="Identity Type" placeholder="NIDA">
+        <ion-select-option value="NIDA">NIDA</ion-select-option>
+        <ion-select-option value="Passport">Passport</ion-select-option>
+        <ion-select-option value="Drivers">Driver's License</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-input label="ID Number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-toggle>
+        <ion-label>Allow Notifications</ion-label>
+        <ion-note color="medium">Unsubscribe at any time</ion-note>
+      </ion-toggle>
+    </ion-item>
+    <ion-button [routerLink]="['/language']" expand="block">SUBMIT</ion-button>
+  </ion-list>
+  
+</ion-content>
